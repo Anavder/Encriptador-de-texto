@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <div class="header">
+         <img class="logo" src="assents/Logo.png" alt="Logo alura">
+         <h2 class="texto">Encriptador de texto</h2>
+        </div>
+        
+     
+    </header>
+    <!--Principal-->
+    <main>
+
+      <section class="encriptador">
+         <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+          <div class="advertencia">
+             <img src="assents/exclamació.png" alt="exclamacion">
+             <p class="texto_advertencia">Solo letras minúsculas y sin acentos</p>
+          </div>
+          <div class="botones">
+             <button class="encriptar_boton">Encriptar</button>
+             <button class="desencriptar_boton">Desencriptar</button>
+          </div>
+      </section>
+      <section class="contenedor">
+        <div class="cuadro_contenedor">
+            <img class="muñeco" src="assents/Muñeco.png" alt="Imagen muñeco">
+            <p class="text_1_contenedor">Ningún mensaje fue encontrado</p>
+            <br>
+            <p class="text_2_contenedor">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <textarea class="copiar_texto" readonly></textarea>
+        <button class="copiar" copiar>Copiar</button>
+      </section> 
+    </main>
+    <!--Pie de pagina-->
+    <footer>
+      <p>Desarrollado por Ana Maria Vasquez Baltazar</p>
+      <a href="https://github.com/Anavder">
+      <img class="github" src="assents/github.svg" alt="Icono de GitHub" hrf="https://github.com/Anavder">
+      </a>
+      <a href="https://www.linkedin.com/in/ana-vasquez-17429b15a/">
+      <img class="linkedin" src="assents/linkedin.svg" alt="Icono linkedin">
+      </a>
+    </footer>
+</body>
+<script src="archivo.js"></script>
+</html>
